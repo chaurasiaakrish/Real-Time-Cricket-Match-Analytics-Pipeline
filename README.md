@@ -1,41 +1,37 @@
 # 🏏 Real-Time Cricket Match Analytics Pipeline
 
-An end-to-end cricket analytics project that extracts live cricket match data through APIs, preprocesses and analyzes the data using Python, and generates insights through visualizations and dashboards.
+An end-to-end analytics project that demonstrates how live cricket match data can be extracted from a REST API, processed using Python, and analyzed to generate meaningful match insights.
 
 ---
 
 ## 📌 Project Overview
 
-This project demonstrates a complete analytics pipeline for cricket match data. Live match information is extracted from an API, cleaned and transformed using Python, and analyzed to uncover match insights such as team performance, batting statistics, bowling statistics, and scoring trends.
+This project fetches live cricket match data using a REST API and processes the JSON response using Python. The extracted data can be further analyzed to understand match statistics, team performance, batting records, bowling performance, and match outcomes.
 
 ---
 
 ## 🚀 Features
 
-🏏 Real-Time Cricket Data Extraction
+🏏 Live Cricket Match Data Extraction
 
-🧹 Data Cleaning & Preprocessing
+🌐 REST API Integration
 
-📊 Exploratory Data Analysis (EDA)
+📄 JSON Data Processing
 
-📈 Match & Team Performance Analysis
+🐍 Python-Based Data Analysis
 
-📉 Batting & Bowling Statistics
+📊 Match Statistics Analysis
 
-📋 Interactive Data Visualizations
-
-📁 Automated Analytics Pipeline
+📁 Structured Data Storage
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠️ Tools Used
 
 - Python
-- Pandas
-- NumPy
-- Matplotlib
-- Requests
 - REST API
+- JSON
+- Pandas
 - Jupyter Notebook
 
 ---
@@ -46,10 +42,15 @@ This project demonstrates a complete analytics pipeline for cricket match data. 
 Real-Time-Cricket-Match-Analytics-Pipeline/
 │
 ├── data/
+│   └── match_snapshot.json
+│
 ├── notebooks/
+│   └── Live_Match_api_call.ipynb
+│
 ├── screenshots/
-├── src/
+│
 ├── README.md
+├── LICENSE
 └── requirements.txt
 ```
 
@@ -57,51 +58,45 @@ Real-Time-Cricket-Match-Analytics-Pipeline/
 
 ## ⚙️ Workflow
 
-API
+Live Cricket API
+
 ⬇
-Data Extraction
+
+Fetch Match Data
+
 ⬇
-Data Cleaning
+
+Store JSON Response
+
 ⬇
-Feature Engineering
+
+Process Data using Python
+
 ⬇
-Exploratory Data Analysis
-⬇
-Visualizations
-⬇
-Business Insights
+
+Analyze Match Statistics
 
 ---
 
-## 📊 Analysis Performed
+## 📊 Analysis
 
-- Extracted live cricket match data from API.
-- Cleaned and transformed raw match data.
-- Performed exploratory data analysis.
-- Compared team performances.
-- Analyzed batting and bowling statistics.
-- Generated visualizations to identify scoring and wicket trends.
+- Extracted live match information using a REST API.
+- Parsed nested JSON match data.
+- Processed structured cricket statistics using Python.
+- Prepared the dataset for further visualization and dashboard development.
 
 ---
 
-## 📷 Screenshots
+## 🚀 Future Improvements
 
-Screenshots of analysis and visualizations are available in the `screenshots/` folder.
-
----
-
-## 🔮 Future Improvements
-
-- Power BI Dashboard
-- Streamlit Dashboard
-- Automated Scheduled Data Refresh
-- Player Performance Prediction
+- Develop a Power BI Dashboard
+- Automate scheduled API calls
+- Compare multiple matches
+- Create player performance dashboards
+- Build real-time visualizations using Streamlit
 
 ---
 
 ## 👨‍💻 Author
 
-**Akrish Chaurasia**
-
-- GitHub: https://github.com/chaurasiaakrish
-- LinkedIn: https://linkedin.com/in/akrishchaurasia
+Akrish Chaurasia
